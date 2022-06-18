@@ -7,6 +7,14 @@ module.exports = {
         filename: "main.js",
         path: path.resolve(__dirname, "./docs"),
     },
+    module: {
+        rules: [
+            {
+                test: /\.png$/i,
+                type: 'asset/resource'
+            }
+        ],
+    },
     optimization: {
         minimize: false,
     },

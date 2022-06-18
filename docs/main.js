@@ -2,29 +2,34 @@
 /******/ 	var __webpack_modules__ = ({
 
 /***/ 528:
-/***/ (() => {
+/***/ ((module) => {
 
-/******/ (() => { // webpackBootstrap
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(true)
+		module.exports = factory();
+	else { var i, a; }
+})(self, () => {
+return /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ 452:
-/***/ ((module, __webpack_exports__, __nested_webpack_require_150__) => {
+/***/ ((module, __webpack_exports__, __nested_webpack_require_511__) => {
 
-/* harmony export */ __nested_webpack_require_150__.d(__webpack_exports__, {
+/* harmony export */ __nested_webpack_require_511__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_150__(81);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nested_webpack_require_150__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_150__(645);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__nested_webpack_require_150__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_511__(81);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nested_webpack_require_511__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_511__(645);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__nested_webpack_require_511__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 // Imports
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".tick-tock{\n    width: 200px;\n}\n.time-picker{\n    display: grid;\n    grid-template-columns: 1fr 5px 1fr 1fr;\n\n    justify-items: center;\n    align-items: center;\n\n    padding: 5px;\n\n    border: 3px solid lightgray;\n    border-radius: 10px;\n\n    font-family: \"Roboto Mono\";\n    color: rgb(97, 119, 119);\n\n}\n\n.time-picker img{\n    opacity: .3;\n}\n\n.time-picker .picker {\n    display: grid;\n    grid-template-columns: 1fr;\n    \n    justify-items: center;\n    align-items: center;\n}\n\n.time-picker .picker div{\n    padding: 3px;\n    border-radius: 5px;\n}\n\n.picker.focused div{\n    background-color: lightgray;\n}\n\n.time-picker .arrow{\n    display: none; \n}\n\n.time-picker .arrow.active{\n    display: block;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".time-picker{\n    display: grid;\n    grid-template-columns: 1fr 5px 1fr 1fr;\n\n    justify-items: center;\n    align-items: center;\n\n    width: 200px;\n\n    padding: 5px;\n\n    border: 3px solid lightgray;\n    border-radius: 10px;\n\n    font-family: \"Roboto Mono\";\n    color: rgb(97, 119, 119);\n\n}\n\n.time-picker img{\n    opacity: .3;\n}\n\n.time-picker .picker {\n    display: grid;\n    grid-template-columns: 1fr;\n    \n    justify-items: center;\n    align-items: center;\n}\n\n.time-picker .picker div{\n    padding: 3px;\n    border-radius: 5px;\n}\n\n.picker.focused div{\n    background-color: lightgray;\n}\n\n.time-picker .arrow{\n    display: none; \n}\n\n.time-picker .arrow.active{\n    display: block;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -323,13 +328,13 @@ module.exports = insertStyleElement;
 /***/ }),
 
 /***/ 565:
-/***/ ((module, __unused_webpack_exports, __nested_webpack_require_8718__) => {
+/***/ ((module, __unused_webpack_exports, __nested_webpack_require_9065__) => {
 
 
 
 /* istanbul ignore next  */
 function setAttributesWithoutAttributes(styleElement) {
-  var nonce =   true ? __nested_webpack_require_8718__.nc : 0;
+  var nonce =   true ? __nested_webpack_require_9065__.nc : 0;
 
   if (nonce) {
     styleElement.setAttribute("nonce", nonce);
@@ -444,7 +449,7 @@ module.exports = styleTagTransform;
 /******/ 	var __webpack_module_cache__ = {};
 /******/ 	
 /******/ 	// The require function
-/******/ 	function __nested_webpack_require_11090__(moduleId) {
+/******/ 	function __nested_webpack_require_11437__(moduleId) {
 /******/ 		// Check if module is in cache
 /******/ 		var cachedModule = __webpack_module_cache__[moduleId];
 /******/ 		if (cachedModule !== undefined) {
@@ -458,7 +463,7 @@ module.exports = styleTagTransform;
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __nested_webpack_require_11090__);
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __nested_webpack_require_11437__);
 /******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
@@ -468,11 +473,11 @@ module.exports = styleTagTransform;
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
 /******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__nested_webpack_require_11090__.n = (module) => {
+/******/ 		__nested_webpack_require_11437__.n = (module) => {
 /******/ 			var getter = module && module.__esModule ?
 /******/ 				() => (module['default']) :
 /******/ 				() => (module);
-/******/ 			__nested_webpack_require_11090__.d(getter, { a: getter });
+/******/ 			__nested_webpack_require_11437__.d(getter, { a: getter });
 /******/ 			return getter;
 /******/ 		};
 /******/ 	})();
@@ -480,63 +485,48 @@ module.exports = styleTagTransform;
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
-/******/ 		__nested_webpack_require_11090__.d = (exports, definition) => {
+/******/ 		__nested_webpack_require_11437__.d = (exports, definition) => {
 /******/ 			for(var key in definition) {
-/******/ 				if(__nested_webpack_require_11090__.o(definition, key) && !__nested_webpack_require_11090__.o(exports, key)) {
+/******/ 				if(__nested_webpack_require_11437__.o(definition, key) && !__nested_webpack_require_11437__.o(exports, key)) {
 /******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
 /******/ 				}
 /******/ 			}
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/global */
-/******/ 	(() => {
-/******/ 		__nested_webpack_require_11090__.g = (function() {
-/******/ 			if (typeof globalThis === 'object') return globalThis;
-/******/ 			try {
-/******/ 				return this || new Function('return this')();
-/******/ 			} catch (e) {
-/******/ 				if (typeof window === 'object') return window;
-/******/ 			}
-/******/ 		})();
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
-/******/ 		__nested_webpack_require_11090__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 		__nested_webpack_require_11437__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/publicPath */
+/******/ 	/* webpack/runtime/make namespace object */
 /******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__nested_webpack_require_11090__.g.importScripts) scriptUrl = __nested_webpack_require_11090__.g.location + "";
-/******/ 		var document = __nested_webpack_require_11090__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript)
-/******/ 				scriptUrl = document.currentScript.src
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 		// define __esModule on exports
+/******/ 		__nested_webpack_require_11437__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 /******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__nested_webpack_require_11090__.p = scriptUrl;
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
 /******/ 	(() => {
-/******/ 		__nested_webpack_require_11090__.nc = undefined;
+/******/ 		__nested_webpack_require_11437__.nc = undefined;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
+// ESM COMPAT FLAG
+__nested_webpack_require_11437__.r(__webpack_exports__);
 
-// UNUSED EXPORTS: createTimePicker
+// EXPORTS
+__nested_webpack_require_11437__.d(__webpack_exports__, {
+  "createBullshitDiv": () => (/* binding */ createBullshitDiv),
+  "createTimePicker": () => (/* binding */ createTimePicker)
+});
 
 ;// CONCATENATED MODULE: ./node_modules/dom-utils/dom-utils.js
 // Returns an html element from an object.
@@ -559,7 +549,7 @@ var __webpack_exports__ = {};
 //
 // returns the newly created element
 console.log("dom-utils imported");
-function dom_utils_createHtmlElement(elementObject){
+function createHtmlElement(elementObject){
     //Must at least have a tag.
     if (typeof elementObject.tag !== 'string'){
         return
@@ -600,25 +590,25 @@ function appendChildren(parent, children){
 
 
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js
-var injectStylesIntoStyleTag = __nested_webpack_require_11090__(379);
-var injectStylesIntoStyleTag_default = /*#__PURE__*/__nested_webpack_require_11090__.n(injectStylesIntoStyleTag);
+var injectStylesIntoStyleTag = __nested_webpack_require_11437__(379);
+var injectStylesIntoStyleTag_default = /*#__PURE__*/__nested_webpack_require_11437__.n(injectStylesIntoStyleTag);
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/styleDomAPI.js
-var styleDomAPI = __nested_webpack_require_11090__(795);
-var styleDomAPI_default = /*#__PURE__*/__nested_webpack_require_11090__.n(styleDomAPI);
+var styleDomAPI = __nested_webpack_require_11437__(795);
+var styleDomAPI_default = /*#__PURE__*/__nested_webpack_require_11437__.n(styleDomAPI);
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/insertBySelector.js
-var insertBySelector = __nested_webpack_require_11090__(569);
-var insertBySelector_default = /*#__PURE__*/__nested_webpack_require_11090__.n(insertBySelector);
+var insertBySelector = __nested_webpack_require_11437__(569);
+var insertBySelector_default = /*#__PURE__*/__nested_webpack_require_11437__.n(insertBySelector);
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js
-var setAttributesWithoutAttributes = __nested_webpack_require_11090__(565);
-var setAttributesWithoutAttributes_default = /*#__PURE__*/__nested_webpack_require_11090__.n(setAttributesWithoutAttributes);
+var setAttributesWithoutAttributes = __nested_webpack_require_11437__(565);
+var setAttributesWithoutAttributes_default = /*#__PURE__*/__nested_webpack_require_11437__.n(setAttributesWithoutAttributes);
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/insertStyleElement.js
-var insertStyleElement = __nested_webpack_require_11090__(216);
-var insertStyleElement_default = /*#__PURE__*/__nested_webpack_require_11090__.n(insertStyleElement);
+var insertStyleElement = __nested_webpack_require_11437__(216);
+var insertStyleElement_default = /*#__PURE__*/__nested_webpack_require_11437__.n(insertStyleElement);
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/styleTagTransform.js
-var styleTagTransform = __nested_webpack_require_11090__(589);
-var styleTagTransform_default = /*#__PURE__*/__nested_webpack_require_11090__.n(styleTagTransform);
+var styleTagTransform = __nested_webpack_require_11437__(589);
+var styleTagTransform_default = /*#__PURE__*/__nested_webpack_require_11437__.n(styleTagTransform);
 // EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./src/time-picker.css
-var time_picker = __nested_webpack_require_11090__(452);
+var time_picker = __nested_webpack_require_11437__(452);
 ;// CONCATENATED MODULE: ./src/time-picker.css
 
       
@@ -648,10 +638,10 @@ var update = injectStylesIntoStyleTag_default()(time_picker/* default */.Z, opti
 
        /* harmony default export */ const src_time_picker = (time_picker/* default */.Z && time_picker/* default.locals */.Z.locals ? time_picker/* default.locals */.Z.locals : undefined);
 
-;// CONCATENATED MODULE: ./src/chevron-down.png
-const chevron_down_namespaceObject = __nested_webpack_require_11090__.p + "55df141ad408f10ca15e.png";
-;// CONCATENATED MODULE: ./src/chevron-up.png
-const chevron_up_namespaceObject = __nested_webpack_require_11090__.p + "646a2b0a9e82b9cd1751.png";
+;// CONCATENATED MODULE: ./src/chevron-down.svg
+const chevron_down_namespaceObject = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTcuNDEsOC41OEwxMiwxMy4xN0wxNi41OSw4LjU4TDE4LDEwTDEyLDE2TDYsMTBMNy40MSw4LjU4WiIgLz48L3N2Zz4=";
+;// CONCATENATED MODULE: ./src/chevron-up.svg
+const chevron_up_namespaceObject = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTcuNDEsMTUuNDFMMTIsMTAuODNMMTYuNTksMTUuNDFMMTgsMTRMMTIsOEw2LDE0TDcuNDEsMTUuNDFaIiAvPjwvc3ZnPg==";
 ;// CONCATENATED MODULE: ./src/time-picker.js
 
 
@@ -661,7 +651,7 @@ const chevron_up_namespaceObject = __nested_webpack_require_11090__.p + "646a2b0
 
 console.log("Executed from time-picker.js");
 document.querySelector("body").appendChild(
-    dom_utils_createHtmlElement({
+    createHtmlElement({
         tag: "p",
         properties: {
             textContent: "Hello From time-picker.js",
@@ -815,7 +805,7 @@ function createTimePicker(){
                         tag: "img",
                         classes: [ "up", "arrow" ],
                         properties: {
-                            src: "./chevron-up.png",
+                            src: chevron_up_namespaceObject,
                         },
                     }),
                     createHtmlElement({
@@ -830,7 +820,7 @@ function createTimePicker(){
                         tag: "img",
                         classes: [ "down", "arrow" ],
                         properties: {
-                            src: "./chevron-down.png",
+                            src: chevron_down_namespaceObject,
                         },
                     }),
                 ],
@@ -851,7 +841,7 @@ function createTimePicker(){
                         tag: "img",
                         classes: [ "up", "arrow" ],
                         properties: {
-                            src: "./chevron-up.png",
+                            src: chevron_up_namespaceObject,
                         },
                     }),
                     createHtmlElement({
@@ -865,7 +855,7 @@ function createTimePicker(){
                         tag: "img",
                         classes: [ "down", "arrow" ],
                         properties: {
-                            src: "./chevron-down.png",
+                            src: chevron_down_namespaceObject,
                         },
                     }),
                 ],
@@ -879,7 +869,7 @@ function createTimePicker(){
                         tag: "img",
                         classes: [ "up", "arrow" ],
                         properties: {
-                            src: "./chevron-up.png",
+                            src: chevron_up_namespaceObject,
                         },
                     }),
                     createHtmlElement({
@@ -893,7 +883,7 @@ function createTimePicker(){
                         tag: "img",
                         classes: [ "down", "arrow" ],
                         properties: {
-                            src: "./chevron-down.png",
+                            src: chevron_down_namespaceObject,
                         },
                     }),
                 ],  
@@ -1033,6 +1023,16 @@ function createTimePicker(){
 
 };
 
+function createBullshitDiv(){
+    const bullshitDiv = createHtmlElement({
+        tag: "div",
+        properties: {
+            textContent: "Bullshit",
+        },
+    });
+
+    return bullshitDiv;
+}
 console.log("End of time-picker.js execution");
 
  
@@ -1040,8 +1040,10 @@ console.log("End of time-picker.js execution");
 
 })();
 
+/******/ 	return __webpack_exports__;
 /******/ })()
 ;
+});
 
 /***/ })
 
@@ -1113,6 +1115,11 @@ var __webpack_exports__ = {};
 const timePickerDiv = document.querySelector("#time-picker");
 
 console.log(time_picker__WEBPACK_IMPORTED_MODULE_0__.createTimePicker);
+
+const fucker = (0,time_picker__WEBPACK_IMPORTED_MODULE_0__.createTimePicker)();
+
+timePickerDiv.appendChild(fucker);
+// timePickerDiv.appendChild( createBullshitDiv() );
 // const newPicker = createTimePicker().timePickerElement;
 
 // timePickerDiv.appendChild(newPicker);
