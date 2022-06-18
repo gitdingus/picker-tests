@@ -798,7 +798,7 @@ const TimePickerObject = function (){
         isValidMinute
     }
 }
-const createTimePicker = function (){
+function createTimePicker (){
     const timePickerObj = TimePickerObject();
     const timePickerElement = createHtmlElement({
         tag: "div",
@@ -1107,7 +1107,10 @@ var __webpack_exports__ = {};
 /* harmony import */ var time_picker__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(time_picker__WEBPACK_IMPORTED_MODULE_0__);
 
 
-console.log((time_picker__WEBPACK_IMPORTED_MODULE_0___default()));
+const timePickerDiv = document.querySelector("#time-picker");
+const newPicker = (time_picker__WEBPACK_IMPORTED_MODULE_0___default().timePickerElement);
+
+timePickerDiv.appendChild(newPicker);
 })();
 
 /******/ })()
