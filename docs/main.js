@@ -1107,7 +1107,7 @@ var __webpack_exports__ = {};
 /* harmony import */ var time_picker__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(time_picker__WEBPACK_IMPORTED_MODULE_0__);
 
 
-console.log(time_picker__WEBPACK_IMPORTED_MODULE_0__.createTimePicker);
+console.log((time_picker__WEBPACK_IMPORTED_MODULE_0___default()));
 })();
 
 /******/ })()
