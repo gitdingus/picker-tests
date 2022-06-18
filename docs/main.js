@@ -668,7 +668,7 @@ document.querySelector("body").appendChild(
         }
     })
 );
-const TimePickerObject = function (){
+function TimePickerObject (){
     let hour = 0;
     let minute = 0;
     let amPm = "AM"
@@ -798,7 +798,7 @@ const TimePickerObject = function (){
         isValidMinute
     }
 }
-function createTimePicker (){
+function createTimePicker(){
     const timePickerObj = TimePickerObject();
     const timePickerElement = createHtmlElement({
         tag: "div",
@@ -1035,6 +1035,9 @@ function createTimePicker (){
 
 console.log("End of time-picker.js execution");
 
+ 
+
+
 })();
 
 /******/ })()
@@ -1108,9 +1111,11 @@ var __webpack_exports__ = {};
 
 
 const timePickerDiv = document.querySelector("#time-picker");
-const newPicker = (time_picker__WEBPACK_IMPORTED_MODULE_0___default().timePickerElement);
 
-timePickerDiv.appendChild(newPicker);
+console.log(time_picker__WEBPACK_IMPORTED_MODULE_0__.createTimePicker);
+// const newPicker = createTimePicker().timePickerElement;
+
+// timePickerDiv.appendChild(newPicker);
 })();
 
 /******/ })()

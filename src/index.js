@@ -1,6 +1,8 @@
-import createTimePicker from 'time-picker';
+import { createTimePicker } from 'time-picker';
 
 const timePickerDiv = document.querySelector("#time-picker");
-const newPicker = createTimePicker.timePickerElement;
 
-timePickerDiv.appendChild(newPicker);
+console.log(createTimePicker);
+// const newPicker = createTimePicker().timePickerElement;
+
+// timePickerDiv.appendChild(newPicker);
