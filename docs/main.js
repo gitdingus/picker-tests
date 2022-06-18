@@ -1029,7 +1029,7 @@ function createTimePicker(){
 
     }
     
-    return { timePickerElement, getTime: timePickerObj.getTime }
+    return timePickerElement;
 
 };
 
