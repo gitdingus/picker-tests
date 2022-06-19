@@ -24,6 +24,7 @@
     "webpack-cli": "^4.10.0"
   },
   "dependencies": {
+    "date-picker": "github:gitdingus/date-picker",
     "time-picker": "github:gitdingus/time-picker"
   }
 }
